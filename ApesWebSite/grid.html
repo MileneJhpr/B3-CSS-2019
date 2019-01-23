@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="/css/typography.css" />
+    <link rel="stylesheet" type="text/css" href="/css/other.css" />
+    <link rel="stylesheet" type="text/css" href="/css/scaffolding.css">
+
+    <title>The website about apes - GRID</title>
+    <style media="screen">
+      li {
+        display: inline-block;
+        justify-content: center;
+      }
+
+      nav{
+      	display: flex;
+      	flex-flow: row wrap;
+      	justify-content: space-around;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      nav li{
+      	margin: 0px 40px;
+      	padding: 0px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+  		<nav>
+  			<ul>
+          <li><a href="index.html">HOME</a></li>
+  			  <li><a href="images.html">IMAGES</a></li>
+  			  <li><a href="flex.html">FLEX</a></li>
+          <li><a href="#">GRID</a></li>
+          <li><a href="transform.html">TRANSFORM</a></li>
+          <li><a href="index.html">CONTACT</a></li>
+  			</ul>
+  		</nav>
+  	</header>
+
+    <section class="container">
+          <figure id="item_a">
+            <img src="images/small/monkey2_small.jpg" alt="">
+            <figcaption>monkey saying "hello"</figcaption>
+          </figure>
+
+          <figure id="item_b">
+            <img src="images/small/monkey3_small.jpg" alt="">
+            <figcaption>monkey saying "give me money"</figcaption>
+          </figure>
+
+          <figure id="item_c">
+            <img src="images/small/monkey4_small.jpg" alt="">
+            <figcaption>monkeys saying "come to play"</figcaption>
+          </figure>
+
+          <figure id="item_d">
+            <img src="images/small/monkey5_small.jpg" alt="">
+            <figcaption>monkey saying "I want your fries"</figcaption>
+          </figure>
+
+          <figure id="item_e">
+            <img src="images/small/monkey6_small.jpg" alt="">
+            <figcaption>monkey saying "it tastes banana"</figcaption>
+          </figure>
+    </section>
+
+
+  </body>
+</html>
