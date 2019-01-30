@@ -47,7 +47,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('/css/imgstyle/oran.jpg');
+  background-image: url('/css/imgstyle/gorilla.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-position: top center;
@@ -55,12 +55,13 @@ body{
 }
 
 #sec6 img{
+   object-fit: cover;
+   max-height: 200px;
    width: 100%;
 }
 
-#sec6_img {
-  object-fit: cover;
-  height: 40vh;
+.sec6_img {
+  overflow: hidden;
 }
 
 .container {
