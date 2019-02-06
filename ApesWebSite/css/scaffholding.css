@@ -1,3 +1,39 @@
+/*-------------------------------
+    Footer
+--------------------------------*/
+
+footer{
+   background-color: #161616;
+   color: #afc7ab;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   padding: 40px 0;
+   align-items: center;
+   display: flex;
+ }
+
+ footer a{
+   color: #afc7ab;
+   text-decoration: none;
+   transition: all .4s;
+ }
+
+
+ #footer-1 img{
+   max-width: 200px;
+ }
+
+ #footer-2 li{
+   padding: 15px 0;
+ }
+
+ #footer-3 li{
+   padding: 8px 0;
+ }
+
+
+
+
 .transform1 {
   animation: feuillette 4s ease infinite;
   position: absolute;
