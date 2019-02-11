@@ -2,6 +2,7 @@
   animation: feuillette 4s ease infinite;
   position: absolute;
   margin-top: 30%;
+
 }
 
 @keyframes feuillette {
