@@ -2,10 +2,6 @@
   body {
     background-color: #B8C4BB;
   }
-
-  nav{
-    height: 100px !important;
-  }
 }
 
 @media screen and (min-width: 415px) and (max-width: 1419px){
