@@ -60,6 +60,8 @@ body{
    width: 100%;
 }
 
+
+
 .sec6_img {
   overflow: hidden;
 }
@@ -75,6 +77,8 @@ body{
   width: 100%;
 }
 
+
+
 /*-------------------------------
     Footer
 --------------------------------*/
@@ -89,7 +93,7 @@ footer{
    align-items: center;
  }
 
- footer a{
+ #footer-3 a{
    color: #B8C4BB;
    text-decoration: none;
    transition: all .4s;
@@ -101,9 +105,11 @@ footer{
  }
 
  #footer-2 li{
-   padding: 15px 0;
+   padding: 8px 0;
+   display: block;
  }
 
  #footer-3 li{
    padding: 8px 0;
+   display: block;
  }
